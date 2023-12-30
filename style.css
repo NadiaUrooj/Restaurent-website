@@ -1,0 +1,182 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); </style>
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 10px 80px;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+  position: sticky;
+  top: 0;
+  background-color: white;
+ 
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar-icon {
+  font-size: 32px;
+}
+.bar-icon:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+  cursor:pointer;
+}
+/*hero-section*/
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.hero-section{
+display: flex; 
+gap: 70px;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.hero_image img{
+ 
+  height: 470px;
+  margin: 10px 40px;
+}
+.content_section{
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+
+.tag{
+background-color: #721a1a;
+align-self: flex-start;
+color: white;
+padding: 5px 10px;
+font-size: 20px;
+display: flex;
+border-radius: 8px}
+.content_section h1{
+  font-size: 75px;
+font-weight: 500;;
+}
+button{
+background-color:#d49c04;
+color: white ;
+font-size: 16px;
+display: flex;
+align-self: flex-start;
+transition: 0.5s ease-in-out;
+padding: 5px 10px;
+margin-top: 10px;
+border-radius: 10px;
+}
+button:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.features{
+  display: flex;
+  max-width: 75vw;
+  justify-content: space-between;
+margin: 0 auto;
+margin-top: 60px;
+}
+.feature{max-width: 15vw;
+  transition: 0.2s ease-in-out;
+}
+.feature:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0;}
+  .menu-section h2{
+  text-align: center;
+  font-size: 34px;}
+.menu-section .tag{
+
+}
+ 
+
+.grid{
+  display: grid;
+  grid-template-areas: 
+  "I1 I2 I2 I3 I3 I4" 
+"I5 I6 I7 I7 I7 I8";
+ gap: 10px;
+}
+.grid-image{
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.grid-image:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.item1{
+  grid-area: I1;
+}
+.item2{
+  grid-area: I2;
+}
+.item3{
+  grid-area: I3;
+}
+.item4{
+  grid-area: I4;
+}
+.item5{
+  grid-area: I5;
+}
+.item6{
+  grid-area: I6;
+}
+.item7{
+  grid-area: I7;
+}
+.item8{
+  grid-area: I8;
+}
+/*footer*/
+footer{
+  display: flex;
+  margin: 20px 45px;
+  gap: 15vw;
+}
+footer h4{
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+}
+.links{
+  gap: 60px;
+  text-align: right;
+}
+footer .links{
+ display: flex;
+  text-align: center;
+}
+.links ul li{
+ list-style: none;
+}
+.Contact_Us{
+height: 7vh;
+width: 15vw;
+border-radius: 5px;
+}
